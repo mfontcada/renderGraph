@@ -1,0 +1,29 @@
+svg {
+  /*border: 1px solid #000;*/
+  /*background-image: url("../images/spain.png");*/
+}
+
+.node {
+  cursor: move;
+}
+.nodelabel {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.node.fixed {
+  cursor: move;
+	fill: white;
+  /* stroke: gray; */
+	opacity: 1;
+}
+.nodelabel.fixed {
+  stroke: white;
+  font-size: 12px;
+}
+
+.linkpath {
+  fill: none;
+}
+.linklabel {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
